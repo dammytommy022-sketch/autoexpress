@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AUTOPROEXPRESS — Vehicle Logistics</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- NAV -->
+  <nav class="nav">
+    <div class="brand">AUTOPRO<span>EXPRESS</span></div>
+    <button class="burger" id="burger" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <div class="menu" id="menu">
+      <a href="#top" class="active">HOME</a>
+      <a href="#services">SERVICES</a>
+      <a href="#track">TRACK</a>
+      <a href="#dealers">DEALERS</a>
+      <a href="#contact">CONTACT</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <header id="top" class="hero">
+    <div class="hero__grid"></div>
+    <div class="stamp">
+      <div>
+        <div class="stamp__t">CLEARANCE<br>GUARANTEED</div>
+        <div class="stamp__e">· EST 2016 ·</div>
+      </div>
+    </div>
+    <div class="hero__inner">
+      <div class="eyebrow eyebrow--accent">END-TO-END VEHICLE LOGISTICS</div>
+      <h1>IMPORT YOUR VEHICLE<br>WITH <span class="accent">CONFIDENCE</span></h1>
+      <div class="flow">
+        <span>BID</span><i></i><span>TRUCK</span><i></i><span>SHIP</span><i></i><span>CLEAR</span><i></i><span>TRACK</span>
+      </div>
+      <div class="hero__cta">
+        <a href="#contact" class="btn btn--primary">REQUEST A QUOTE</a>
+        <a href="#track" class="btn btn--ghost">TRACK MY VEHICLE</a>
+      </div>
+    </div>
+    <div class="thumbs">
+      <div></div><div></div><div></div><div></div><div></div>
+    </div>
+  </header>
+
+  <!-- SERVICES -->
+  <section id="services" class="sec sec--tint">
+    <div class="eyebrow">WHAT WE HANDLE</div>
+    <h2>OUR SERVICES</h2>
+    <p class="lead">From the auction floor to your driveway — every leg of the journey, managed under one manifest.</p>
+    <div class="services" id="services-grid"></div>
+  </section>
+
+  <!-- HOW IT WORKS -->
+  <section class="sec sec--grid">
+    <div class="eyebrow">THE PROCESS</div>
+    <h2>HOW IT WORKS</h2>
+    <p class="lead">Seven checkpoints, one manifest number. You can see exactly where your vehicle sits, always.</p>
+    <div class="steps" id="steps"></div>
+  </section>
+
+  <!-- WHY -->
+  <section class="sec">
+    <div class="eyebrow">THE DIFFERENCE</div>
+    <h2 class="mb">WHY CHOOSE US</h2>
+    <div class="why" id="why-grid"></div>
+  </section>
+
+  <!-- DEALERS -->
+  <section id="dealers" class="sec sec--muted">
+    <div class="eyebrow">FOR TRADE PARTNERS</div>
+    <h2>DEALER PROGRAMME</h2>
+    <p class="lead">Two tiers, built around how many units you move.</p>
+    <div class="tiers" id="tiers"></div>
+  </section>
+
+  <!-- TRACK -->
+  <section id="track" class="sec track-sec">
+    <div class="track">
+      <div class="track__grid"></div>
+      <div class="track__copy">
+        <div class="eyebrow">LIVE STATUS</div>
+        <h2 class="track__h">TRACK YOUR VEHICLE</h2>
+        <p class="lead">Enter the manifest number from your confirmation email to see the current checkpoint.</p>
+      </div>
+      <div class="track__form">
+        <div class="track__label">TRACKING NUMBER</div>
+        <form class="trackform" id="trackform">
+          <input id="track-input" value="VCT-2026-084517" placeholder="VCT-2026-084517" autocomplete="off">
+          <button type="submit">TRACK VEHICLE</button>
+        </form>
+        <div class="track__result" id="track-result" hidden></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- REVIEWS -->
+  <section class="sec sec--tint">
+    <div class="reviews__head">
+      <div>
+        <div class="eyebrow">CUSTOMER REVIEWS</div>
+        <h2>TRUSTED BY IMPORTERS</h2>
+      </div>
+      <div class="stars stars--lg">★★★★★</div>
+    </div>
+    <div class="rtrack" id="rtrack"></div>
+    <div class="rnav">
+      <button id="rprev" aria-label="Previous">&#8592;</button>
+      <div class="dots" id="rdots"></div>
+      <button id="rnext" aria-label="Next">&#8594;</button>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer id="contact" class="footer">
+    <div class="footer__top">
+      <div class="footer__brandcol">
+        <div class="brand brand--dark">AUTOPRO<span>EXPRESS</span></div>
+        <p>Manifest-driven vehicle logistics. Bid, truck, ship, clear, and track — all under one number.</p>
+      </div>
+      <div class="footer__cols">
+        <div>
+          <div class="footer__h">COMPANY</div>
+          <a href="#">About</a><a href="#">FAQ</a><a href="#contact">Contact</a>
+        </div>
+        <div>
+          <div class="footer__h">LEGAL</div>
+          <a href="#">Privacy</a><a href="#">Terms</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2026 AUTOPROEXPRESS — MANIFEST-DRIVEN VEHICLE LOGISTICS</span>
+      <span class="accent">BID · TRUCK · SHIP · CLEAR · TRACK</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

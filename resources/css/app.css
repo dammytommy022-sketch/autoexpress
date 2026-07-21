@@ -11,19 +11,16 @@
         'Segoe UI Symbol', 'Noto Color Emoji';
     --font-heading: 'Space Grotesk', ui-sans-serif, system-ui, sans-serif;
 
-    --color-brand-navy: #0B1E3A;
-    --color-brand-navy-deep: #0A2247;
-    --color-brand-blue: #1B5FE0;
-    --color-brand-blue-hover: #2E6FF0;
-    --color-brand-accent: #7EA6F5;
-    --color-brand-ink: #1E2A44;
-    --color-brand-muted: #6B7A94;
-    --color-brand-line: #1B3A6B;
-    --color-brand-line-soft: #2E4A78;
+    --color-brand-blue: #0EA5E9;
+    --color-brand-blue-hover: #38BDF8;
+    --color-brand-blue-light: #7DD3FC;
+    --color-brand-blue-tint: #E0F2FE;
+    --color-brand-ink: #111111;
+    --color-brand-muted: #4A4A4A;
+    --color-brand-faint: #7A7A7A;
+    --color-brand-line: #E4F3FC;
     --color-brand-fog: #F6F8FB;
     --color-brand-mist: #EEF1F6;
-    --color-brand-sky: #C9D6EC;
-    --color-brand-sky-dim: #9FB4D6;
 }
 
 @font-face {

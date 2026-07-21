@@ -16,7 +16,7 @@ export default function WhyUs() {
                 {WHY.map((w) => (
                     <div key={w.title} className="py-7 pr-8">
                         <div className="mb-2.5 flex items-center gap-2.5">
-                            <span className="inline-flex h-[22px] w-[22px] items-center justify-center rounded-[5px] bg-[#E8F0FE] text-[12px] font-bold text-brand-blue">
+                            <span className="inline-flex h-[22px] w-[22px] items-center justify-center rounded-[5px] bg-brand-blue-tint text-[12px] font-bold text-brand-blue">
                                 ✓
                             </span>
                             <h3 className="font-heading text-[15px] font-semibold tracking-[0.5px]">{w.title}</h3>

@@ -77,11 +77,11 @@ export default function Reviews() {
                         <div
                             key={r.author}
                             className="flex flex-col gap-4 rounded-2xl border border-[#E4ECF7] bg-white p-7 [scroll-snap-align:start]"
-                            style={{ boxShadow: '0 12px 30px rgba(10,31,60,0.04)' }}
+                            style={{ boxShadow: '0 12px 30px rgba(14,165,233,0.05)' }}
                         >
                             <div className="text-[15px] tracking-[3px] text-brand-blue">★★★★★</div>
-                            <p className="flex-1 text-[15.5px] leading-relaxed text-[#2A3958]">“{r.quote}”</p>
-                            <div className="text-[11px] font-semibold tracking-[1.5px] text-[#8A97AD]">{r.author}</div>
+                            <p className="flex-1 text-[15.5px] leading-relaxed text-brand-ink">“{r.quote}”</p>
+                            <div className="text-[11px] font-semibold tracking-[1.5px] text-brand-faint">{r.author}</div>
                         </div>
                     ))}
                 </div>
@@ -93,7 +93,7 @@ export default function Reviews() {
                             restart();
                         }}
                         aria-label="Previous"
-                        className="flex h-11 w-11 items-center justify-center rounded-full border border-[#C7D8F5] bg-white text-lg text-brand-blue hover:border-brand-blue hover:bg-brand-blue hover:text-white"
+                        className="flex h-11 w-11 items-center justify-center rounded-full border border-brand-blue-light bg-white text-lg text-brand-blue hover:border-brand-blue hover:bg-brand-blue hover:text-white"
                     >
                         ←
                     </button>
@@ -106,7 +106,7 @@ export default function Reviews() {
                                 className="h-2 cursor-pointer rounded-full border-none p-0 transition-all"
                                 style={{
                                     width: i === active ? '28px' : '8px',
-                                    background: i === active ? '#1B5FE0' : '#C7D8F5',
+                                    background: i === active ? '#0EA5E9' : '#BAE6FD',
                                 }}
                             />
                         ))}
@@ -117,7 +117,7 @@ export default function Reviews() {
                             restart();
                         }}
                         aria-label="Next"
-                        className="flex h-11 w-11 items-center justify-center rounded-full border border-[#C7D8F5] bg-white text-lg text-brand-blue hover:border-brand-blue hover:bg-brand-blue hover:text-white"
+                        className="flex h-11 w-11 items-center justify-center rounded-full border border-brand-blue-light bg-white text-lg text-brand-blue hover:border-brand-blue hover:bg-brand-blue hover:text-white"
                     >
                         →
                     </button>

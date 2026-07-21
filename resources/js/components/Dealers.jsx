@@ -2,13 +2,13 @@ const TIERS = [
     {
         tier: 'TIER 01',
         name: 'BASIC',
-        dark: false,
+        premium: false,
         feats: ['Auction floor access', 'Standard trucking rates', 'Email status updates', 'Net-15 invoicing'],
     },
     {
         tier: 'TIER 02',
         name: 'PREMIUM',
-        dark: true,
+        premium: true,
         feats: ['Priority auction access', 'Discounted freight blocks', 'Live manifest tracking', 'Net-30 invoicing + credit line'],
     },
 ];
@@ -26,12 +26,12 @@ export default function Dealers() {
                     <div
                         key={t.tier}
                         className={
-                            t.dark
-                                ? 'rounded-xl border border-brand-navy-deep bg-gradient-to-br from-brand-navy to-brand-navy-deep p-9 text-white'
+                            t.premium
+                                ? 'rounded-xl border border-brand-blue bg-gradient-to-br from-brand-blue to-brand-blue-hover p-9 text-white'
                                 : 'rounded-xl border border-[#DDE5F0] bg-white p-9 text-brand-ink'
                         }
                     >
-                        <div className={`mb-2 text-[10px] font-semibold tracking-[3px] ${t.dark ? 'text-brand-accent' : 'text-brand-blue'}`}>
+                        <div className={`mb-2 text-[10px] font-semibold tracking-[3px] ${t.premium ? 'text-brand-blue-tint' : 'text-brand-blue'}`}>
                             {t.tier}
                         </div>
                         <h3 className="mb-[26px] font-heading text-[30px] font-bold tracking-[-0.5px]">{t.name}</h3>
@@ -39,19 +39,19 @@ export default function Dealers() {
                             {t.feats.map((f) => (
                                 <div
                                     key={f}
-                                    className={`flex items-center justify-between border-b py-3 text-sm ${t.dark ? 'border-brand-line' : 'border-[#EAEFF6]'}`}
+                                    className={`flex items-center justify-between border-b py-3 text-sm ${t.premium ? 'border-white/30' : 'border-[#EAEFF6]'}`}
                                 >
                                     <span>{f}</span>
-                                    <span className={`font-bold ${t.dark ? 'text-brand-accent' : 'text-brand-blue'}`}>✓</span>
+                                    <span className={`font-bold ${t.premium ? 'text-white' : 'text-brand-blue'}`}>✓</span>
                                 </div>
                             ))}
                         </div>
                         <a
                             href="#contact"
                             className={
-                                t.dark
-                                    ? 'mt-7 block rounded-md border border-brand-blue bg-brand-blue py-3.5 text-center text-[11px] font-semibold tracking-[2px] text-white'
-                                    : 'mt-7 block rounded-md border border-[#C7D8F5] bg-white py-3.5 text-center text-[11px] font-semibold tracking-[2px] text-brand-ink'
+                                t.premium
+                                    ? 'mt-7 block rounded-md border border-white bg-white py-3.5 text-center text-[11px] font-semibold tracking-[2px] text-brand-blue'
+                                    : 'mt-7 block rounded-md border border-brand-blue-light bg-white py-3.5 text-center text-[11px] font-semibold tracking-[2px] text-brand-ink'
                             }
                         >
                             REGISTER NOW
