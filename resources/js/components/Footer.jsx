@@ -14,16 +14,20 @@ export default function Footer() {
                     <div>
                         <div className="mb-[18px] text-[10px] font-semibold tracking-[3px] text-brand-blue">COMPANY</div>
                         <div className="flex flex-col gap-[11px] text-[13px]">
-                            <a href="#" className="text-brand-ink">About</a>
-                            <a href="#" className="text-brand-ink">FAQ</a>
-                            <a href="#contact" className="text-brand-ink">Contact</a>
+                            <a href="/about" className="text-brand-ink">About</a>
+                            <a href="/how-it-works" className="text-brand-ink">How It Works</a>
+                            <a href="/faq" className="text-brand-ink">FAQ</a>
+                            <a href="/contact" className="text-brand-ink">Contact</a>
                         </div>
                     </div>
                     <div>
                         <div className="mb-[18px] text-[10px] font-semibold tracking-[3px] text-brand-blue">LEGAL</div>
                         <div className="flex flex-col gap-[11px] text-[13px]">
-                            <a href="#" className="text-brand-ink">Privacy</a>
-                            <a href="#" className="text-brand-ink">Terms</a>
+                            <a href="/terms" className="text-brand-ink">Terms & Conditions</a>
+                            <a href="/privacy" className="text-brand-ink">Privacy Policy</a>
+                            <a href="/refund-policy" className="text-brand-ink">Refund Policy</a>
+                            <a href="/payment-policy" className="text-brand-ink">Payment Policy</a>
+                            <a href="/pre-order-agreement" className="text-brand-ink">Pre-order Agreement</a>
                         </div>
                     </div>
                 </div>

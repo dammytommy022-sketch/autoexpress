@@ -1,0 +1,157 @@
+export default {
+    title: 'Terms & Conditions',
+    tag: 'LEGAL AGREEMENT',
+    lastUpdated: 'July 2026',
+    intro:
+        'These Terms & Conditions govern your use of the AUTOPROEXPRESS platform and all vehicle sourcing, auction, shipping, customs, and delivery services provided under it.',
+    sections: [
+        {
+            id: 'acceptance',
+            title: '1. Acceptance of Terms',
+            blocks: [
+                'AUTOPROEXPRESS is a trading name of MERITSKY GLOBAL SOLUTION LIMITED, a company incorporated under the laws of the Federal Republic of Nigeria ("the Company", "we", "us", "our").',
+                'By accessing this website, submitting a quote request, making a payment, registering as a dealer, or otherwise using any AUTOPROEXPRESS service, you ("the Customer", "you") confirm that you have read, understood, and agree to be legally bound by these Terms & Conditions, our Privacy Policy, Refund Policy, Payment Policy, and, where applicable, our Pre-order Agreement.',
+                'If you do not agree with any part of these Terms, you must discontinue use of our services immediately. Continued use of the platform after any update to these Terms constitutes your acceptance of the revised Terms.',
+            ],
+        },
+        {
+            id: 'definitions',
+            title: '2. Definitions',
+            blocks: [
+                {
+                    list: [
+                        '"Platform" means the AUTOPROEXPRESS website, and any associated communication channels including WhatsApp, email, and phone support.',
+                        '"Services" means vehicle sourcing, auction bidding, inland trucking, ocean freight, customs clearance, and last-mile delivery within Nigeria.',
+                        '"Quote Fee" means the fixed, non-refundable fee charged for our team to research and prepare an itemized cost estimate.',
+                        '"Dealer" means a business or individual registered under our Basic or Premium Dealer Membership packages.',
+                        '"Manifest" means the shipping and customs documentation associated with a specific vehicle or consignment.',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'our-services',
+            title: '3. Our Services',
+            blocks: [
+                'AUTOPROEXPRESS facilitates the sourcing of vehicles from third-party auction platforms and private sellers located outside Nigeria, coordinates inland trucking to port, arranges ocean freight, manages customs clearance through licensed brokers, and delivers vehicles to a destination address within Nigeria.',
+                'We act as an intermediary and logistics coordinator. We do not manufacture, own, or warrant the condition of any vehicle prior to purchase, and we do not control the auction platforms, shipping lines, or customs authorities whose actions may affect the timing or outcome of your order.',
+            ],
+        },
+        {
+            id: 'eligibility',
+            title: '4. Account & Eligibility',
+            blocks: [
+                'You must be at least 18 years of age and legally capable of entering into a binding contract under Nigerian law to use our Services. Business customers and dealers represent that they hold valid Corporate Affairs Commission (CAC) registration where required.',
+                'You are responsible for providing accurate identification, contact, and payment information, and for promptly notifying us of any changes.',
+            ],
+        },
+        {
+            id: 'quotation-pricing',
+            title: '5. Quotation & Pricing',
+            blocks: [
+                'Quote fees published on our Pricing page (including but not limited to Full Import Quote, Trucking Quote, Repair/Parts Quote, Shipping Quote, and Customs Clearing Quote) cover the time and resources our team spends researching an itemized estimate. Quote fees are payable in advance and are non-refundable once processing has begun, as set out in our Refund Policy.',
+                'All landed-cost figures quoted in Naira are indicative only and calculated using the prevailing exchange rate at the time of quotation. Figures may vary at the point of final invoicing due to currency fluctuation, changes in freight rates, or revised customs assessments.',
+                'Issued quotes remain valid for seven (7) days from the date shown on the quote document. Requests confirmed after this window may be re-priced to reflect current rates.',
+            ],
+        },
+        {
+            id: 'payment-terms',
+            title: '6. Payment Terms & Verification Policy',
+            blocks: [
+                'All Services are processed on a payment-first basis. No quote, auction bid, sourcing action, or shipment will be initiated until payment has been submitted and independently verified by our finance team against our official bank details.',
+                'We reserve the right to delay, suspend, or decline any transaction where payment cannot be verified, where payment originates from an account name that does not match the Customer\'s registered details, or where fraud or money-laundering indicators are identified in accordance with our Payment Policy.',
+                'Dealer members transacting under Net-15 or Net-30 invoicing terms remain subject to the credit limits and verification checks set out in their Dealer Membership agreement.',
+            ],
+        },
+        {
+            id: 'auction-risk',
+            title: '7. Vehicle Auction Participation & Risk Disclaimer',
+            blocks: [
+                'Vehicles are sourced through third-party auction platforms (including but not limited to salvage and dealer auction networks) and private sellers over which AUTOPROEXPRESS has no ownership or operational control. By instructing us to bid or purchase on your behalf, you acknowledge and accept the following risks:',
+                {
+                    list: [
+                        'A submitted bid may be outbid, rejected, or withdrawn by the auction platform or seller at any time prior to sale confirmation, and we cannot guarantee that any specific vehicle will be won.',
+                        'Vehicles are typically sold on an "as-is, where-is" basis. Auction listing photographs, condition reports, and mileage disclosures are provided by third parties and are not independently verified or warranted by AUTOPROEXPRESS.',
+                        'Final purchase price may vary from an estimated bid range due to live competitive bidding, buyer\'s premiums, and auction platform fees.',
+                        'Where a bid is unsuccessful, any deposit held for that specific bid will be handled in accordance with our Refund Policy.',
+                    ],
+                },
+                'You confirm that you are instructing AUTOPROEXPRESS to act on your behalf in good faith, and that we shall not be held liable for the condition, mechanical state, or accident history of any vehicle purchased through a third-party auction.',
+            ],
+        },
+        {
+            id: 'shipping-customs',
+            title: '8. Shipping, Customs & Delivery Limitations',
+            blocks: [
+                'Estimated sailing schedules, transit times, and delivery dates are indicative only. Ocean freight schedules are set by shipping lines and may be affected by port congestion, vessel rescheduling, mechanical delays, weather, or force majeure events beyond our control.',
+                'Customs clearance is subject to assessment by the Nigeria Customs Service and other applicable regulatory bodies. Duty rates, exchange rates used for assessment, and inspection requirements are determined solely by these authorities and may change without notice. AUTOPROEXPRESS is not liable for delays, additional charges, or seizure arising from a change in customs regulation, valuation, or inspection outcome, except where such delay is caused by our own negligence or misconduct.',
+                'Delivery within Nigeria is arranged through licensed trucking partners. Delivery timelines communicated to you are estimates and may be affected by road conditions, security advisories, or events outside our reasonable control.',
+            ],
+        },
+        {
+            id: 'dealer-membership',
+            title: '9. Dealer & Reseller Membership',
+            blocks: [
+                'Dealer Membership (Basic or Premium) grants access to defined benefits including auction floor access, trucking rates, invoicing terms, and account support as described on our Dealer Program page. Membership is granted subject to verification of the business details, CAC registration number, and contact information submitted at registration.',
+                'AUTOPROEXPRESS reserves the right to suspend or revoke a Dealer Membership where a member breaches these Terms, defaults on invoiced payment, or provides false registration information.',
+            ],
+        },
+        {
+            id: 'prohibited-conduct',
+            title: '10. Prohibited Conduct',
+            blocks: [
+                {
+                    list: [
+                        'Providing false, incomplete, or misleading identification, business registration, or payment information.',
+                        'Using the platform for money laundering, terrorism financing, or any other unlawful purpose.',
+                        'Attempting to circumvent our payment verification or dealer eligibility checks.',
+                        'Reproducing, reselling, or redistributing AUTOPROEXPRESS content or pricing without written consent.',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'liability',
+            title: '11. Limitation of Liability',
+            blocks: [
+                'To the maximum extent permitted under Nigerian law, AUTOPROEXPRESS and MERITSKY GLOBAL SOLUTION LIMITED shall not be liable for indirect, incidental, or consequential loss, including loss of profit or loss of use, arising from your use of our Services.',
+                'Where liability cannot be excluded, our total liability to you in respect of any single order shall not exceed the total fees paid by you to AUTOPROEXPRESS for that specific order.',
+            ],
+        },
+        {
+            id: 'indemnification',
+            title: '12. Indemnification',
+            blocks: [
+                'You agree to indemnify and hold harmless AUTOPROEXPRESS, MERITSKY GLOBAL SOLUTION LIMITED, and our officers, employees, and agents from any claim, loss, or expense arising from your breach of these Terms or your misuse of the Services.',
+            ],
+        },
+        {
+            id: 'termination',
+            title: '13. Termination',
+            blocks: [
+                'We may suspend or terminate your access to the platform, without prior notice, where we reasonably believe you have breached these Terms, provided fraudulent information, or engaged in conduct harmful to AUTOPROEXPRESS or other customers.',
+            ],
+        },
+        {
+            id: 'governing-law',
+            title: '14. Governing Law & Dispute Resolution',
+            blocks: [
+                'These Terms are governed by the laws of the Federal Republic of Nigeria. Any dispute arising from these Terms shall first be referred to good-faith negotiation between the parties, and failing resolution within thirty (30) days, shall be subject to the exclusive jurisdiction of the courts of Lagos State, Nigeria.',
+            ],
+        },
+        {
+            id: 'changes',
+            title: '15. Changes to These Terms',
+            blocks: [
+                'We may update these Terms from time to time to reflect changes in our Services, regulatory requirements, or operating practices. The "Last Updated" date at the top of this page indicates when this document was last revised. Material changes will be communicated via the platform or by email where practicable.',
+            ],
+        },
+        {
+            id: 'contact',
+            title: '16. Contact Information',
+            blocks: [
+                'Questions about these Terms may be directed to MERITSKY GLOBAL SOLUTION LIMITED, trading as AUTOPROEXPRESS, at 13 Odegbemi Street, Aboru, Iyana-Ipaja, Lagos, Nigeria, by phone on 0708 911 1001 / 0811 122 2466, or by email at support@autoproexpress.com.',
+            ],
+        },
+    ],
+};

@@ -1,6 +1,31 @@
 {
+  "_Footer-BCgRY9hA.js": {
+    "file": "assets/Footer-BCgRY9hA.js",
+    "name": "Footer"
+  },
+  "_Icons-BI1e0udo.js": {
+    "file": "assets/Icons-BI1e0udo.js",
+    "name": "Icons",
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
+  "_Icons-qsWZC4e3.js": {
+    "file": "assets/Icons-qsWZC4e3.js",
+    "name": "Icons",
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
+  "_LegalLayout-DGoBDlCI.js": {
+    "file": "assets/LegalLayout-DGoBDlCI.js",
+    "name": "LegalLayout",
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
   "resources/css/app.css": {
-    "file": "assets/app-kd2txHZ2.css",
+    "file": "assets/app-BWzs8WVX.css",
     "src": "resources/css/app.css",
     "isEntry": true,
     "name": "app",
@@ -8,10 +33,144 @@
       "app.css"
     ]
   },
+  "resources/js/about.jsx": {
+    "file": "assets/about-DUfu79ZB.js",
+    "name": "about",
+    "src": "resources/js/about.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
   "resources/js/app.jsx": {
-    "file": "assets/app-14R463Vi.js",
+    "file": "assets/app-DOLwWLcO.js",
     "name": "app",
     "src": "resources/js/app.jsx",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
+  "resources/js/contact.jsx": {
+    "file": "assets/contact-B1rRekjp.js",
+    "name": "contact",
+    "src": "resources/js/contact.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
+  "resources/js/dealer-program.jsx": {
+    "file": "assets/dealer-program-DwdKPbgW.js",
+    "name": "dealer-program",
+    "src": "resources/js/dealer-program.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_Icons-qsWZC4e3.js",
+      "_Icons-BI1e0udo.js"
+    ]
+  },
+  "resources/js/faq.jsx": {
+    "file": "assets/faq-Cq_Pp9H1.js",
+    "name": "faq",
+    "src": "resources/js/faq.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js"
+    ]
+  },
+  "resources/js/how-it-works.jsx": {
+    "file": "assets/how-it-works-Crtdsxbm.js",
+    "name": "how-it-works",
+    "src": "resources/js/how-it-works.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_Icons-BI1e0udo.js",
+      "_Icons-qsWZC4e3.js"
+    ]
+  },
+  "resources/js/payment-policy.jsx": {
+    "file": "assets/payment-policy-B32x62eG.js",
+    "name": "payment-policy",
+    "src": "resources/js/payment-policy.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_LegalLayout-DGoBDlCI.js"
+    ]
+  },
+  "resources/js/pre-order-agreement.jsx": {
+    "file": "assets/pre-order-agreement-DbaYXvcO.js",
+    "name": "pre-order-agreement",
+    "src": "resources/js/pre-order-agreement.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_LegalLayout-DGoBDlCI.js"
+    ]
+  },
+  "resources/js/pricing.jsx": {
+    "file": "assets/pricing-C1JwnJOe.js",
+    "name": "pricing",
+    "src": "resources/js/pricing.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_Icons-BI1e0udo.js",
+      "_Icons-qsWZC4e3.js"
+    ]
+  },
+  "resources/js/privacy.jsx": {
+    "file": "assets/privacy-BE-8sS_h.js",
+    "name": "privacy",
+    "src": "resources/js/privacy.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_LegalLayout-DGoBDlCI.js"
+    ]
+  },
+  "resources/js/refund-policy.jsx": {
+    "file": "assets/refund-policy-DtoD5R5J.js",
+    "name": "refund-policy",
+    "src": "resources/js/refund-policy.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_LegalLayout-DGoBDlCI.js"
+    ]
+  },
+  "resources/js/services.jsx": {
+    "file": "assets/services-GVa2BmCY.js",
+    "name": "services",
+    "src": "resources/js/services.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_Icons-qsWZC4e3.js"
+    ]
+  },
+  "resources/js/terms.jsx": {
+    "file": "assets/terms-D4mxcjLj.js",
+    "name": "terms",
+    "src": "resources/js/terms.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_LegalLayout-DGoBDlCI.js"
+    ]
+  },
+  "resources/js/tracking.jsx": {
+    "file": "assets/tracking-uz4BvgEo.js",
+    "name": "tracking",
+    "src": "resources/js/tracking.jsx",
+    "isEntry": true,
+    "imports": [
+      "_Footer-BCgRY9hA.js",
+      "_Icons-BI1e0udo.js",
+      "_Icons-qsWZC4e3.js"
+    ]
   }
 }

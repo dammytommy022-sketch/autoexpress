@@ -1,0 +1,117 @@
+export default {
+    title: 'Pre-order Agreement',
+    tag: 'VEHICLE PRE-ORDER',
+    lastUpdated: 'July 2026',
+    intro:
+        'This Pre-order Agreement applies whenever you instruct AUTOPROEXPRESS to source, bid on, and purchase a specific vehicle on your behalf ahead of shipment to Nigeria.',
+    sections: [
+        {
+            id: 'introduction',
+            title: '1. Introduction & Purpose',
+            blocks: [
+                'This Agreement is entered into between you ("the Customer") and MERITSKY GLOBAL SOLUTION LIMITED, trading as AUTOPROEXPRESS ("the Company"), each time you submit a pre-order request for a specific vehicle. It supplements, and should be read together with, our Terms & Conditions, Payment Policy, and Refund Policy.',
+            ],
+        },
+        {
+            id: 'definitions',
+            title: '2. Definitions',
+            blocks: [
+                '"Pre-order" means an instruction from you for AUTOPROEXPRESS to source and attempt to purchase a specific vehicle, or a vehicle matching a specific written brief, from a third-party auction or seller.',
+                '"Target Vehicle" means the specific vehicle listing, or description of desired make, model, year, and specification, provided by you at the time of pre-order.',
+            ],
+        },
+        {
+            id: 'scope',
+            title: '3. Scope of Pre-Order',
+            blocks: [
+                'A pre-order authorises AUTOPROEXPRESS to bid on, negotiate for, or purchase the Target Vehicle up to an agreed maximum price, on the payment and deposit terms set out in your quote. This Agreement does not guarantee that the Target Vehicle will be won, and does not create any ownership interest in the Target Vehicle until purchase is confirmed and paid for in full.',
+            ],
+        },
+        {
+            id: 'consent',
+            title: '4. Customer Consent & Acknowledgment',
+            blocks: [
+                'By submitting a pre-order request and completing the associated payment, you expressly acknowledge and agree that:',
+                {
+                    list: [
+                        'You have read and understood this Pre-order Agreement in full, together with our Terms & Conditions, Payment Policy, and Refund Policy.',
+                        'You authorise AUTOPROEXPRESS to bid for, negotiate, and purchase the Target Vehicle on your behalf, up to the agreed maximum price.',
+                        'You understand that auction outcomes are not guaranteed and that this Agreement does not constitute a promise that any specific vehicle will be delivered to you.',
+                        'You consent to the collection, use, and sharing of your personal and payment data as described in our Privacy Policy, for the purpose of fulfilling this pre-order.',
+                    ],
+                },
+            ],
+        },
+        {
+            id: 'auction-risk',
+            title: '5. Vehicle Auction Risk Disclaimer',
+            blocks: [
+                'You acknowledge that the Target Vehicle is offered for sale by a third-party auction platform or seller not controlled by AUTOPROEXPRESS, typically on an "as-is, where-is" basis. Auction listing details, including condition reports, mileage, and photographs, are provided by the auction platform or seller and are not independently verified by us.',
+                'A pre-order may fail to result in a purchase where the Target Vehicle is withdrawn from sale, sold to another bidder, sold above the agreed maximum price, or otherwise becomes unavailable prior to sale confirmation. In such cases, this Agreement terminates automatically in respect of that Target Vehicle, and any deposit held is treated in accordance with our Refund Policy.',
+            ],
+        },
+        {
+            id: 'payment-deposit',
+            title: '6. Payment & Deposit Terms',
+            blocks: [
+                'A pre-order will only be actioned once the required quote fee and/or deposit has been paid and verified in accordance with our Payment Policy. Where the final winning bid exceeds the deposit held, you will be required to settle the balance promptly to avoid delay to your order.',
+            ],
+        },
+        {
+            id: 'sourcing-timeline',
+            title: '7. Sourcing Timeline',
+            blocks: [
+                'Any timeline communicated for locating, bidding on, or winning the Target Vehicle is a non-binding estimate. Auction cycles, listing availability, and seller responsiveness vary and are outside our control.',
+            ],
+        },
+        {
+            id: 'substitution',
+            title: '8. Substitution & Alternative Vehicle Clause',
+            blocks: [
+                'Where the exact Target Vehicle becomes unavailable, and you have authorised us in writing to consider comparable alternatives, AUTOPROEXPRESS may propose an alternative vehicle of similar make, model, year, or specification for your approval. No substitute purchase will be made without your prior confirmation.',
+            ],
+        },
+        {
+            id: 'shipping-customs',
+            title: '9. Shipping & Customs Limitations',
+            blocks: [
+                'Once the Target Vehicle is won, it becomes subject to the shipping and customs terms set out in our Terms & Conditions, including variability in sailing schedules, customs assessment, and delivery timelines, all of which are outside the direct control of AUTOPROEXPRESS.',
+            ],
+        },
+        {
+            id: 'cancellation',
+            title: '10. Cancellation of Pre-Order',
+            blocks: [
+                'You may request cancellation of a pre-order at any time before a winning bid is confirmed, subject to the non-refundable quote fee described in our Refund Policy. Once a winning bid has been confirmed on your behalf, the pre-order cannot be cancelled, as AUTOPROEXPRESS will have already committed funds to the purchase.',
+            ],
+        },
+        {
+            id: 'document-handling',
+            title: '11. Document Handling & Ownership Transfer',
+            blocks: [
+                'Auction purchase certificates, bills of sale, and title documents obtained on your behalf are held securely by AUTOPROEXPRESS until shipment and customs clearance are complete, and are handled in accordance with the document handling provisions of our Privacy Policy. Ownership and title documentation will be released to you upon full payment and successful delivery.',
+            ],
+        },
+        {
+            id: 'liability',
+            title: '12. Limitation of Liability',
+            blocks: [
+                'AUTOPROEXPRESS\'s liability under this Agreement is limited to the fees paid by you in respect of the specific pre-order, and we shall not be liable for the mechanical condition, accident history, or market value of the Target Vehicle once purchased, consistent with the vehicle auction risk disclaimer in Section 5.',
+            ],
+        },
+        {
+            id: 'entire-agreement',
+            title: '13. Entire Agreement & Governing Law',
+            blocks: [
+                'This Pre-order Agreement, together with our Terms & Conditions, Payment Policy, Refund Policy, and Privacy Policy, constitutes the entire agreement between you and AUTOPROEXPRESS in respect of a pre-order, and is governed by the laws of the Federal Republic of Nigeria.',
+            ],
+        },
+        {
+            id: 'acknowledgment',
+            title: '14. Acknowledgment',
+            blocks: [
+                'By submitting a pre-order request and completing the associated payment, you confirm your electronic acceptance of this Pre-order Agreement in its entirety. If you do not agree to these terms, please do not proceed with a pre-order request.',
+            ],
+        },
+    ],
+};
